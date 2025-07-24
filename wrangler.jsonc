@@ -2,6 +2,6 @@
     "name": "portfolio-website-worker",
     "compatibility_date": "2025-07-24",
     "assets": {
-        "directory": "./.next"
+        "directory": "./build"
     }
 }

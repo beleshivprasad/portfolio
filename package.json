@@ -5,8 +5,10 @@
 	"scripts": {
 		"dev": "next dev --turbopack",
 		"build": "next build",
+		"deploy": "npx wrangler deploy",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"build:deploy": "next build && npx wrangler deploy"
 	},
 	"dependencies": {
 		"react": "^19.0.0",
